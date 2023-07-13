@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+          body{
+            background-color: violet;
+          }
+          .grid-container{
+            display: grid;
+            grid-template-rows: 2;
+            grid-template-columns: 2;
+            grid-gap: 15px;
+            text-align: center;
+            
+          }
+          .ama{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            padding-top: 30px;
+          }
+          .flp{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            padding-left: 80px;
+          }
+          .mee{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            padding-top: 30px;
+          }
+          .ajio{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            padding-top: 30px;
+            padding-left: 80px;
+          }
+          .ama:hover{
+            border:5px solid purple;
+          }
+          .mee:hover{
+            border: 5px solid pink;
+          }
+          .flp:hover{
+            border: 5px solid yellow
+          }
+          .ajio:hover{
+            border: 5px solid black
+          }
+          h1:hover{
+            color: blue
+          }
+          #re{
+            margin-top:25px;
+          }
+          #te{
+            margin-top: 20px;
+          }
+          #pe{
+            margin-top: 20px;
+          }
+          #me{
+            margin-top:25px;
+          }
+          #re:hover{
+            background-color: skyblue
+          }
+          #te:hover{
+            background-color: yellow
+          }
+          #pe:hover{
+            background-color: lightgreen
+          }
+          #me:hover{
+            background-color: aqua
+          }
+        </style>
+    </head>
+    <body>
+        <h1><center>ECOM</h1></center>
+        <div class="grid-container">
+        <div class="ama">
+        <a href="a1.html"><img src="./amazon_logo2.jpg" alt="amazon"></a><br>
+        <button id="re">Amazon</button>
+      </div>
+        <div class="flp"><img src="./flipkart.jpg" alt=""><br>
+          <button id="te">Flipcart</button>
+        
+        </div>
+        <div class="mee">
+            <img src="./meesho.jpg" alt="meesho"><br>
+            <button id="pe">Meesho</button>
+        </div>
+        <div class="ajio">
+            <img src="./ajio.jpg" alt="Ajio Style"><br>
+            <button id="me">Ajio</button>
+        </div>
+        </div>
+    </body>
+</html>
